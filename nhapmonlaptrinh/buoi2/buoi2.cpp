@@ -2,9 +2,7 @@
 #include <string>
 #include <iomanip>
 using namespace std;
-int main()
-{
-	//*Cau 1
+void baitap() {//*Cau 1
 	int a;
 	float b;
 	char c;
@@ -51,5 +49,15 @@ int main()
 //	float trungbinh = (so1 + so2 + so3) / 3;
 //	//#include 
 //	cout << "Trung binh: " << fixed << setprecision(2) << trungbinh;
-//	return 0;
+}
+int main()
+{
+	const float PI = 3.14;
+	// Viet chuong trinh tinh dien tichva chu vi hinh tron voi ban kinh r
+	int r;
+	cout << "nhap ban kinh r: ";
+	cin >> r;
+	cout << " dien tich: " << PI * r * r << endl;
+	cout << " chu vi: " << 2 * PI * r << endl;    
+
 }
