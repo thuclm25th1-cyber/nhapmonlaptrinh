@@ -14,7 +14,36 @@ void cau1() {
 		cout << c;
 
 }
+void cau2() {
+	float a, b;
+	cout << " nhap a , b: ";
+	cin >> a >> b;
+	if (a * b > 0)
+		cout << "cung dau";
+	else
+		cout << " khac dau";
+}
+void cau3() {
+	int a, b;
+	cout << "nhap a , b: ";
+	cin >> a >> b;
+	if (a == 0) {
+		if (b == 0)
+			cout << " Phuong trinh vo so nghiem" << endl;
+		else
+			cout << " Phuong trinh vo so nghiem" << endl;
+	}
+	else {
+		cout << "nghiem la: " << (-b * 1.0 / a) << endl;
+	}
+
+}
+
+
+
+
+
 int main()
 {
-	cau1();
+	cau3();
 }
