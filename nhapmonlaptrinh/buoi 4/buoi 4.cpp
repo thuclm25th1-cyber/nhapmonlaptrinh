@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 void cau1() {
@@ -51,10 +52,18 @@ void cau3() {
 	cout << "the tich khoi tru tron la: " << V << "(cm3)" << endl;
 	cout << "so lit nuoc la: " << V / 1000 <<  "(lit)" << endl;
 }
+void cau4() {
+	int x1, y1, x2, y2;
+	cout << "nhap toa do diem A(x,y): ";
+	cin >> x1 >> y1;
+	cout << "nhap toa do diem B(x,y): ";
+	cin >> x2 >> y2;
+	cout << "khoang cach: " << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)) << endl;
+}
 
 
 int main()
 {
-	cau3();
+	cau4();
 }
 
