@@ -38,12 +38,28 @@ void cau3() {
 	}
 
 }
-
+void cau4() {
+	int thang;
+	cout << "nhap thang: ";
+	cin >> thang;
+	if (thang <= 3) {
+		cout << "quy 1";
+	}
+	else if (thang <= 6){
+		cout << "quy 2";
+	}
+	else if (thang <= 9) {
+		cout << "quy 3";
+	}
+	else {
+		cout << "quy 4";
+	}
+}
 
 
 
 
 int main()
 {
-	cau3();
+	cau4();
 }
