@@ -55,11 +55,32 @@ void cau4() {
 		cout << "quy 4";
 	}
 }
+void cau5() {
+	int a, b, c;
+	cout << "nhap 3 canh a , b , c: ";
+	cin >> a >> b >> c;
+	if (a + b > c || b + c > a || a + c > b) {
+		if (a == b && b == c) {
+			cout << "tam giac deu" << endl;
+		}
+		else if (a == b || b == c || c == a) {
+			cout << " tam giac can" << endl;
+		}
+		else if (b * b == a * a + c * c || a * a == b * b + c * c || c * c == a * a + b * b) {
+			cout << " tam giac vuong" << endl;
+		}
+		else {
+			cout << " tam giac thuong" << endl;
+		}
+	}
 
+	else {
+		cout << " khong la tam giac" << endl;
+	}
 
-
+}
 
 int main()
 {
-	cau4();
+	cau5();
 }
