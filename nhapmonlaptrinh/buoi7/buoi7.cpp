@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	int n = 1026;
-	int kq = DemChuSo(n);
-	cout << "So chu so: " << kq << endl;
+	int a = 25, b = 60;
+	int uocchunglonnhat = UCLN(a, b);
+	cout << " uoc chung lon nhat: " << uocchunglonnhat << endl;
 }
