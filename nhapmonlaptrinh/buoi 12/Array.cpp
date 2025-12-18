@@ -9,3 +9,12 @@ void input(int b[], int& n) {
 		cin >> b[i];
 	}
 }
+void output(int b[], int n) {
+	cout << "danh sach phan tu mang: " << endl;
+	int i = 0;
+	while (i < n) {
+		cout << b[i] << "   ";
+		i++;
+	}
+	cout << endl;
+}
