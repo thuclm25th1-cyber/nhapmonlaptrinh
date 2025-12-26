@@ -1,5 +1,7 @@
 #include "Array.h"
+#include<iostream>
 #define MAX 100
+using namespace std;
 
 int main()
 {
@@ -12,6 +14,15 @@ int main()
     //vitrilonnhat(a, n);
     //nguyentonhohon100(a, n);
     //tonggiatriam(a, n);
-    sapxep(a, n);
-    output(a, n);
+    //sapxep(a, n);
+    //output(a, n);
+    int kq = giatrichancuoicung(a, n);
+    if (kq < 0) {
+        cout << "khong co gia tri chan trong mang" << endl;
+
+    }
+    else {
+        cout << "gia tri chan cuoi cung: " << kq << endl;
+    }
+       
 }
