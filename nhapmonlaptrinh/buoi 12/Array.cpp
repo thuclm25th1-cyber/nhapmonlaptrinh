@@ -107,3 +107,11 @@ int giatrichancuoicung(int b[], int n) {
 	}
 	return -1;
 }
+
+int vitrichandautien(int b[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (b[i] % 2 == 0)
+			return i + 1;
+	}
+	return -1;
+}
