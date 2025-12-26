@@ -17,12 +17,12 @@ int main()
     //sapxep(a, n);
     //output(a, n);
     int vt = vitrichandautien(a, n);
-    if (kq < 0) {
+    if (vt == -1) {
         cout << "khong co gia tri chan trong mang" << endl;
 
     }
     else {
-        cout << "vi tri chan dau tien: " << kq << endl;
+        cout << "vi tri chan dau tien: " << vt << endl;
     }
        
 }
