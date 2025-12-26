@@ -5,3 +5,4 @@ void vitriam(int b[], int n);
 void giatrilonnhat(int b[], int n);
 void vitrilonnhat(int b[], int n);
 void nguyentonhohon100(int b[], int n);
+void tonggiatriam(int b[], int n);
